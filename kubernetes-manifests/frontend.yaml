@@ -22,7 +22,7 @@ spec:
       app: frontend
   template:
     metadata:
-      labels:
+      labels: frontend
         app: frontend
       annotations:
         sidecar.istio.io/rewriteAppHTTPProbers: "true"

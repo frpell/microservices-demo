@@ -22,7 +22,7 @@ spec:
       app: redis-cart
   template:
     metadata:
-      labels:
+      labels: backend
         app: redis-cart
     spec:
       containers:
